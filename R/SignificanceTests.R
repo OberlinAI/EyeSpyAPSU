@@ -16,10 +16,16 @@ shapiro.test(windmill_results$FN[windmill_results$Method == "ZFNet"])
 shapiro.test(windmill_results$FN[windmill_results$Method == "VGG-16"])
 shapiro.test(windmill_results$FN[windmill_results$Method == "U-Net"])
 
+shapiro.test(windmill_results$FP[windmill_results$Method == "ZFNet"])
+shapiro.test(windmill_results$FP[windmill_results$Method == "VGG-16"])
+shapiro.test(windmill_results$FP[windmill_results$Method == "U-Net"])
+
 # perform pairwise t-tests between U-Net and ZFNet
 t.test(windmill_results$TP[windmill_results$Method == "U-Net"], windmill_results$TP[windmill_results$Method == "ZFNet"])
 t.test(windmill_results$FN[windmill_results$Method == "U-Net"], windmill_results$FN[windmill_results$Method == "ZFNet"])
+wilcox.test(windmill_results$FP[windmill_results$Method == "U-Net"], windmill_results$FP[windmill_results$Method == "ZFNet"])
 
 # perform pairwise t-tests between U-Net and VGG-16
 t.test(windmill_results$TP[windmill_results$Method == "U-Net"], windmill_results$TP[windmill_results$Method == "VGG-16"])
 t.test(windmill_results$FN[windmill_results$Method == "U-Net"], windmill_results$FN[windmill_results$Method == "VGG-16"])
+wilcox.test(windmill_results$FP[windmill_results$Method == "U-Net"], windmill_results$FP[windmill_results$Method == "VGG-16"])
