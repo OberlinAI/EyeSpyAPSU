@@ -1,14 +1,15 @@
 # EyeSpyAPSU
 Eye Spy a PSU: Automating Sampling Frame Construction from Aerial Images using Machine Learning
 
-This GitHub repository contains the code necessary to replicate the study evaluating how supervised machine learning models (specifically CNNs) might be used to automatically discover places, objects, or locations (POL) from aerial images in order to construct sampling frames for social science research.  This study is currently under review as the manuscript "Eye Spy a PSU! Automating Sampling Frame Construction from Aerial Images using Machine Learning" in the journal (*Methods, Data, and Analyses*)[https://mda.gesis.org/index.php/mda].
+This GitHub repository contains the code necessary to replicate the study evaluating how supervised machine learning models (specifically CNNs) might be used to automatically discover places, objects, or locations (POL) from aerial images in order to construct sampling frames for social science research.  This study is currently under review as the manuscript "Eye Spy a PSU! Automating Sampling Frame Construction from Aerial Images using Machine Learning" in the journal [*Methods, Data, and Analyses*](https://mda.gesis.org/index.php/mda)
 
 ## Data to Download
 
 To replicate our study, you will need to use to download two data sources:
 
-1. USDA Images
-2. U.S. Wind Turbine Database
+1. Aerial Images of Iowa (or your area of interest) from the U.S. Department of Agriculture's [National Agriculture Imagery Program](https://naip-usdaonline.hub.arcgis.com).  Image downloads can be found under "NAIP Coverage" here: [https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx](https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx)
+   
+3. The U.S. Wind Turbine Database contains a listing of all windmills in the United States, available here: [https://energy.usgs.gov/uswtdb/](https://energy.usgs.gov/uswtdb/)
 
 ## Repository Organization 
 
