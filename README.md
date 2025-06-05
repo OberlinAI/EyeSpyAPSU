@@ -20,6 +20,8 @@ The contents of this repository are organized as follows:
 1. `Windmills_Polygons_256.csv` contains the pixel coordinates of the polygons representing each windmill in each image of the study
 2. `counties_utm.csv` contains the UTM coordinates of each county in Iowa (where each county is identified by the last three digits of its FIPS code)
 3. `windmills_IA.csv` contains a subset of the U.S. Wind Turbine Database mentioned above for the windmills present in the state of Iowa
+4. `WindmillLocationsPerCounty.zip` contains CSV files of each windmill location, organized one file per county
+5. `WindmillPolygonsPerCounty.zip` contains CSV files of each windmill's polygon, organized one file per county
 
 * The **src** folder contains the Python code that learns the machine learning models and conducts our experiments
 
